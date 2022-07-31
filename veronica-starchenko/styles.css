@@ -1,0 +1,28 @@
+.tabs {
+	text-align: center;
+}
+
+.tabs-list {
+	color: white;
+}
+
+.tabs ul li {
+	background: black;
+	color: white;
+	display: inline-block;
+	list-style-type: none;
+	padding: 10px;
+}
+
+.tabs ul li a {
+	color: white;
+}
+
+.tabs ul li:hover {
+    background: purple;
+}
+
+.header {
+    margin: auto;
+    text-align: center;
+}
