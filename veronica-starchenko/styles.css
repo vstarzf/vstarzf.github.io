@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
 .tabs {
 	text-align: center;
+	
+	margin: auto;
 }
 
 .tabs-list {
 	color: white;
+	
 }
 
 .tabs ul li {
@@ -12,6 +18,7 @@
 	display: inline-block;
 	list-style-type: none;
 	padding: 10px;
+	
 }
 
 .tabs ul li a {
@@ -19,10 +26,93 @@
 }
 
 .tabs ul li:hover {
-    background: purple;
+    background: rgb(82, 56, 129);
 }
 
 .header {
     margin: auto;
     text-align: center;
+}
+
+
+ul {
+	text-align: left;
+	list-style-position: inside;
+	font-family: 'Source Sans Pro', sans-serif;
+	
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: left;
+	width: fit-content;
+
+}
+
+#section > img {
+	align-self: flex-end;
+	flex-grow: 1;
+	
+}
+
+.highlight-blue {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 60px;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+.section {
+	background-color:rgb(255, 255, 255);
+	border-style: solid;
+	border-width: 2px;
+	border-color:rgb(82, 56, 129);
+	
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding: 40px;
+	
+	display: flex;
+	flex-direction: column;
+	
+	align-content: space-around;
+	/*display: flex;
+	flex-direction: column;*/
+
+	width: 800px;
+	height: fit-content;
+	
+
+}
+
+.contactform {
+	margin: auto;
+	text-align: center;
+}
+
+.projects-grid {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 20px;
+}
+
+
+
+body {
+	background: 
+		radial-gradient(rgb(82, 56, 129) 3px, transparent 4px),
+		radial-gradient(rgb(82, 56, 129)  3px, transparent 4px),
+		linear-gradient(#fff 4px, transparent 0),
+		linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+		linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+		#fff;
+		background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+		background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
 }
