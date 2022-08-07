@@ -33,4 +33,4 @@ function clickListener(event) {
 }
 
 
-document.addEventListener('click', clickListener);
+submitButton.addEventListener('click', clickListener);
